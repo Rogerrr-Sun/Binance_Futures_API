@@ -46,6 +46,7 @@ from binance_f.model.indexInfo import IndexInfo
 from binance_f.model.leveragebracket import LeverageBracket
 from binance_f.model.openintereststats import OpenInterestStats
 from binance_f.model.longshortratio import LongShortRatio
+from binance_f.model.longshortpositions import LongShortPositions
 from binance_f.model.takerbuysellratio import TakerBuySellRatio
 from binance_f.model.blvtinfoevent import BLVTInfoEvent
 from binance_f.model.blvtnavcandlestickevent import BLVTNAVCandlestickEvent

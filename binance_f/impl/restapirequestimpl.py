@@ -815,7 +815,7 @@ class RestApiRequestImpl(object):
             result = list()
             data_list = json_wrapper.convert_2_array()
             for item in data_list.get_items():
-                element = LongShortRatio.json_parse(item)
+                element = LongShortPositions.json_parse(item)
                 result.append(element)
             return result
 
